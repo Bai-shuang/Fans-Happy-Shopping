@@ -20,14 +20,13 @@ export const tabBarRoute =[
         icon:"\ue607"
     },
     {
-        path:"/mine",
-        component:Mine,
+        path:"/baoyou",
+        component:Baoyou,
         meta:{
-            flag:true,
-            auth:true
+            flag:true
         },
-        name:"我的",
-        icon:"\ue619"
+        name:"9.9包邮",
+        icon:"\ue606"
     },
     {
         path:"/items",
@@ -39,15 +38,6 @@ export const tabBarRoute =[
         icon:"\ue7f9"
     },
     {
-        path:"/baoyou",
-        component:Baoyou,
-        meta:{
-            flag:true
-        },
-        name:"9.9包邮",
-        icon:"\ue606"
-    },
-    {
         path:"/collection",
         component:Collection,
         meta:{
@@ -55,6 +45,16 @@ export const tabBarRoute =[
         },
         name:"收藏",
         icon:"\ue637"  //这样转换是转换成了 unicode 值
+    },
+    {
+        path:"/mine",
+        component:Mine,
+        meta:{
+            flag:true,
+            auth:true
+        },
+        name:"我的",
+        icon:"\ue619"
     }
 ]
 
